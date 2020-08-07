@@ -1,0 +1,71 @@
+* {
+  text-align: center;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.sec {
+  border-bottom: 1px dashed #ccc;
+  padding: 20px 0;
+}
+
+.tit {
+  font-size: 30px;
+  padding-bottom: 10px;
+}
+.desc {
+  font-size: 18px;
+  color: #999;
+}
+#today-now {
+  font-size: 24px;
+  font-weight: 600;
+  color: #7f59b7;
+}
+
+.input {
+  border: 1px solid #ccc;
+}
+form {
+  padding: 0 0 20px;
+  margin-bottom: 20px;
+}
+.btn-save {
+  background: #ccc;
+  padding: 3px 5px;
+}
+.sub-tit {
+  font-size: 24px;
+  padding-bottom: 10px;
+}
+#todo-wrap .save-todo {
+  padding-left: 10px;
+}
+
+#get-todo {
+  padding-left: 10px;
+  padding-bottom: 20px;
+}
+
+#get-todo li {
+  padding-bottom: 5px;
+}
+#get-todo li:last-child {
+  padding-bottom: 0;
+}
+#get-todo li span {
+  display: inline-block;
+  font-style: italic;
+  color: #fff;
+  background: #000;
+  padding: 1px 2px;
+  margin-right: 5px;
+}
+.disblock {
+  display: block;
+}
+
+.disnone {
+  display: none;
+}

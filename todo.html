@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8" />
+
+    <title>TODO-LIST</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="js.js" defer type="text/javascript"></script>
+  </head>
+
+  <body>
+    <div class="wrap">
+      <section>
+        <h1 class="tit">TODO LIST</h1>
+        <p class="desc">&#8251; var 사용금지!!</p>
+        <h2 id="today-now"></h2>
+      </section>
+      <section id="name-wrap" class="sec">
+        <div id="user-txt-wrap">
+          <p class="sub-tit"></p>
+        </div>
+        <form class="form">
+          <input type="text" class="input" placeholder="너의 이름은?" />
+          <button type="submit" class="btn-save">save</button>
+        </form>
+      </section>
+      <!-- name-wrap -->
+
+      <section id="todo-wrap" class="sec">
+        <form class="form">
+          <input type="text" class="input" placeholder="할 일은?" />
+          <button type="submit" class="btn-save">save</button>
+        </form>
+
+        <div class="result">
+          <h2 class="sub-tit">할 일 목록</h2>
+          <ul id="get-todo"></ul>
+        </div>
+        <!-- result -->
+      </section>
+      <!-- todo-wrap -->
+    </div>
+    <!-- wrap -->
+  </body>
+</html>
