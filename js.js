@@ -1,3 +1,4 @@
+"use strict";
 /*
 1. form 2. form submit 함수 3. 매개변수 e.페이지 전환하지 않는 4. e값들을 가져옴
 5. result에 a ppend 6. input 지워주기
